@@ -1,26 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="./sass/style.css">
+
   <title>Frontend Mentor | Calculator app</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
-<body>
+
+<body id="body">
+
+  <main class=calculator>
+
+    <div class="title">
+      <h1>Rama's Calculator</h1>
+    </div>
+
+    <div class="result">
+      <p class="result__screen"></p>
+    </div>
+
+    <div class="buttons">
+      <div class="butt4">
+        <button>7</button>
+        <button>8</button>
+        <button>9</button>
+        <button class="light-blue">DEL</button>
+      </div>
+      <div class="butt4">
+        <button>4</button>
+        <button>5</button>
+        <button>6</button>
+        <button>+</button>
+      </div>
+      <div class="butt4">
+        <button>1</button>
+        <button>2</button>
+        <button>3</button>
+        <button>-</button>
+      </div>
+      <div class="butt4">
+        <button>.</button>
+        <button>0</button>
+        <button>/</button>
+        <button>*</button>
+      </div>
+      <div class="butt2">
+        <button class="light-blue">RESET</button>
+        <button class="red">=</button>
+      </div>
+    </div>
 
 
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+
+  </main>
+
+
+
+  <footer id="footer">
+
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Ramiro Sarasola</a>.
+    </div>
+
+  </footer>
+
 </body>
+
 </html>

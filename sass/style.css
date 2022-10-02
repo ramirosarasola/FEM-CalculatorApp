@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@300;500;600;700&family=Be+Vietnam+Pro&family=Inter&family=League+Spartan:wght@700&family=Open+Sans:ital@1&family=Oswald&family=Outfit&family=Roboto&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  background-color: hsl(222deg, 26%, 31%);
+}
+body .calculator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3rem;
+  justify-content: space-evenly;
+  height: 80%;
+}
+body .calculator .light-blue {
+  background-color: hsl(225deg, 21%, 49%);
+  border: none;
+  border-radius: 5px;
+}
+body .calculator .title {
+  font-family: "League Spartan";
+  color: #fff;
+}
+body .calculator .result {
+  width: 80%;
+  height: 80px;
+  background-color: blue;
+  border-radius: 10px;
+  margin: 20px 0;
+  background-color: hsl(223deg, 31%, 20%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+body .calculator .result .result__screen {
+  height: 100%;
+  width: 100%;
+  padding: 5px 10px;
+  color: #fff;
+  font-size: 30px;
+  font-family: "League Spartan";
+  text-align: end;
+}
+body .calculator .buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  height: 400px;
+  padding: 2rem;
+  border-radius: 10px;
+  background-color: hsl(223deg, 31%, 20%);
+}
+body .calculator .buttons .butt4 {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+body .calculator .buttons .butt4 button {
+  width: 50px;
+  height: 50px;
+  font-family: "League Spartan";
+  font-size: 22px;
+  box-shadow: 0px 3px hsl(224deg, 28%, 35%);
+  color: hsl(221deg, 32%, 15%);
+}
+body .calculator .buttons .butt2 {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+body .calculator .buttons .butt2 button {
+  width: 47.4%;
+  height: 50px;
+  font-family: "League Spartan";
+  font-size: 22px;
+  color: hsl(221deg, 32%, 15%);
+}
+body .calculator .buttons .butt2 .red {
+  background-color: hsl(6deg, 63%, 50%);
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+}
+
+#footer {
+  display: flex;
+  text-align: center;
+  font-size: 12px;
+  justify-content: center;
+}/*# sourceMappingURL=style.css.map */
